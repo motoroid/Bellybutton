@@ -61,10 +61,9 @@ function buildCharts(sample) {
     console.log(data);
 
     // Deliverable 1: 3. Create a variable that holds the samples array. 
-var samplesArray = [data];
-console.log(samplesArray);
+
     // Deliverable 1: 4. Create a variable that filters the samples for the object with the desired sample number.
-var sample_object_number = samplesArray.filter()
+
     // Deliverable 3: 1. Create a variable that filters the metadata array for the object with the desired sample number.
 
     // Deliverable 1: 5. Create a variable that holds the first sample in the array.
@@ -79,17 +78,17 @@ var sample_object_number = samplesArray.filter()
     // Deliverable 1: 7. Create the yticks for the bar chart.
     // Hint: Get the the top 10 otu_ids and map them in descending order 
     // so the otu_ids with the most bacteria are last. 
-    //var yticks = 
+    var yticks = 
 
     // Deliverable 1: 8. Create the trace for the bar chart. 
-    //var barData = [
+    var barData = [
 
-    //];
+    ];
 
     // Deliverable 1: 9. Create the layout for the bar chart. 
-    //var barLayout = {
+    var barLayout = {
 
-   // };
+    };
 
     // Deliverable 1: 10. Use Plotly to plot the data with the layout. 
 
@@ -105,5 +104,5 @@ var sample_object_number = samplesArray.filter()
 
     // Deliverable 3: 6. Use Plotly to plot the gauge data and layout.
 
- });
-};
+  });
+}
