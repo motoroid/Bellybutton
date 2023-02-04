@@ -172,12 +172,15 @@
 // sortedAge = familyAge.sort((a,b) => b - a);
 
 //slice the elements of an array(first 2)
-var integers = [0,1,2,3,4,5];
-var slice1 = integers.slice(0,2);
-console.log(slice1);
-//slice to the end
-var words = ['seal', 'dog', 'scorpion', 'orangutan', 'salamander'];
-words.slice(3, );
-console.log(words);
+// var integers = [0,1,2,3,4,5];
+// var slice1 = integers.slice(0,2);
+// console.log(slice1);
+
+// slice to the end
+// var words = ['seal', 'dog', 'scorpion', 'orangutan', 'salamander'];
+// words.slice(3, );
+// console.log(words);
+
+
 
 
